@@ -3,24 +3,22 @@ Self-Driving Car Engineer Nanodegree Program
 
 ---
 The aim of this project is implement and tune a PID controller in C++ to manuever a vehicle around the lake race track.
-Simulator provide us the cross track error (CTE) and the velocity (mph) in order to compute the appropriate steering angle.
-
-PID controller was implemented in class PID.cpp and main.cpp
+Simulator provide us the cross track error (CTE) and the velocity (mph) in order to compute the appropriate steering angle. PID controller was implemented in class PID.cpp and main.cpp
 
 Controller tunning was did manually, following the strategy explained in the next link: [Good strategies for tunning PID](https://robotics.stackexchange.com/questions/167/what-are-good-strategies-for-tuning-pid-loops). Obtained from the udacity forums.
 
 In the next videos we can see the results obtained in the different stages of the steering PID tunning proccess:
 
-* As we can see in the video of the next link with only P action, the car oscillates in the track at low speed.
+* In the first stage we apply only "P" component, and as we can see in the video of the next link, the car oscillates in the track at low speed.
   [P Video](https://github.com/jiforcen/CarND-PID-Control-Project/blob/master/Media/P.mov). 
   
-* Adding D component the car can drives faster without oscilations, but it has a bit of error (derive).
+* Adding "D" component the car can drives faster without oscilations, but it has a bit of error (derive).
 [PD Video](https://github.com/jiforcen/CarND-PID-Control-Project/blob/master/Media/PD.mov).
 
-* Tunning also I component, car drives without derive in trough the track.
+* Tunning also "I" component, car drives without derive in trough the track.
 [PID50MPH Video](https://github.com/jiforcen/CarND-PID-Control-Project/blob/master/Media/PID50MPH.mov). 
 
-Also a control loop was added to the throttle, the strategy to tune it was the same that the steering PID. In the next video we can see car driving at 60MPH with both loops actived.
+Also a control loop was added to the throttle, the strategy to tune it was the same that the steering "PID". In the next video we can see car driving at 60MPH with both loops actived.
 
 * CompleteLap60MPH Video [CompleteLap60MPH Video](https://github.com/jiforcen/CarND-PID-Control-Project/blob/master/Media/CompleteLap60MPH.mov). 
 
