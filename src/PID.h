@@ -18,6 +18,11 @@ public:
   double Kd;
 
   /*
+  * Other variables
+  */ 
+  bool first_cycle;
+
+  /*
   * Constructor
   */
   PID();
