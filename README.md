@@ -1,4 +1,4 @@
-# CarND-Controls-PID (REFLECTION)
+# CarND-Controls-PID (Solution adopted)
 Self-Driving Car Engineer Nanodegree Program
 
 ---
@@ -24,7 +24,7 @@ Also a control loop was added to the throttle, the strategy to tune it was the s
 
 * CompleteLap60MPH Video [CompleteLap60MPH Video](https://github.com/jiforcen/CarND-PID-Control-Project/blob/master/Media/CompleteLap60MPH.mov). 
 
-# CarND-Controls-PID UDACITY
+# CarND-Controls-PID (Udacity)
 Self-Driving Car Engineer Nanodegree Program
 
 ---
