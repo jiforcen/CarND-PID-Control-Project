@@ -35,6 +35,7 @@ int main()
   PID pid_steer;
   // TODO: Initialize the pid variable.
   pid_steer.Init(0.15, 0.0002, 3.0);
+
   PID pid_throttle;
   pid_throttle.Init(0.15, 0.0001, 1.1);
 
@@ -68,7 +69,6 @@ int main()
 
           pid_throttle.UpdateError(cte);
           throttle_value = 0.55 - pid_throttle.TotalError();
-
 
           json msgJson;
           msgJson["steering_angle"] = steer_value;
