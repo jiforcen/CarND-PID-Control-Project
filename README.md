@@ -1,11 +1,10 @@
 # CarND-Controls-PID (Solution adopted)
-Self-Driving Car Engineer Nanodegree Program
 
 ---
 The aim of this project is implement and tune a PID controller in C++ to manuever a vehicle around the lake race track.
 Simulator provide us the cross track error (CTE) and the velocity (mph) in order to compute the appropriate steering angle. PID controller was implemented in class PID.cpp and main.cpp
 
-Controller tunning was did manually, following the strategy explained in the next link: [Good strategies for tunning PID](https://robotics.stackexchange.com/questions/167/what-are-good-strategies-for-tuning-pid-loops). Obtained from the udacity forums.
+Controller tunning was did manually following the strategy explained in the next link: [Good strategies for tunning PID](https://robotics.stackexchange.com/questions/167/what-are-good-strategies-for-tuning-pid-loops). Obtained from the udacity forums. Manually tunning is hard but is a good option to understant well the influence of each parameter.
 
 In the next videos we can see the results obtained in the different stages of the steering PID tunning proccess:
 
